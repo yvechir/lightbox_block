@@ -1,0 +1,6 @@
+lightbox_block.admin_settings:
+  title: 'LightBox Block'
+  route_name: lightbox_block.admin_settings
+  description: "Configuration page for LightBox Block"
+  parent: newsform.admin_config_risdconfig
+  weight: 95

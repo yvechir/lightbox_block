@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Install file.
+ */
+
+use Drupal\block\Entity\Block;
+
+/**
+ * Implements hook_install().
+ */
+function lightbox_block_install() {
+  $block = Block::create([
+    'id' => 'lightbox_block',
+    'plugin' => 'lightbox_block',
+    'region' => 'content',
+    'provider' => 'lightbox_block',
+    'weight' => -100,
+    'theme' => \Drupal::config('system.theme')->get('default'),
+    'settings' => [
+      'label' => 'LightBox Block',
+      'label_display' => 0,
+    ],
+  ]);
+  $block->save();
+}

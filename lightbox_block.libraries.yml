@@ -1,0 +1,10 @@
+block:
+  version: 1.x
+  css:
+    theme:
+      css/lightbox.block.css: {}
+  js:
+    js/lightbox_block.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

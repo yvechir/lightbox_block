@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Gotham Bold";
+  src: url(../fonts/GothamBold.otf);
+}
+
+@font-face {
+  font-family: "Gotham Medium";
+  src: url(../fonts/GothamMedium.otf);
+}
+.bg {
+  z-index: 7000;
+  position: fixed;
+  color: #101e34;
+  line-height: 24px;
+  bottom: 30px;
+  right: 30px;
+  width: 350px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.bg .lightbox-inner {
+  padding: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.bg .lightbox-inner .title-gotham-bold-1 {
+  font-family: "Gotham Bold", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.bg .lightbox-inner .description-gotham-m {
+  font-family: "Gotham Medium", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 18px;
+}
+
+.bg .lightbox-inner .reverse-button-normal-05-risd {
+  border: 3px solid #000;
+  font-family: "Gotham Medium", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  height: 57px;
+  background: #000;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.bg .lightbox-inner .reverse-button-normal-05-risd:hover {
+  background: #fff;
+  color: #000;
+  border: 3px solid #000;
+}
+
+.bg .lightbox-inner .dismiss-this {
+  font-family: "Gotham Medium", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  height: 13px;
+  width: 290px;
+}

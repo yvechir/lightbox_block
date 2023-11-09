@@ -1,0 +1,7 @@
+lightbox_block.admin_settings:
+  path: '/admin/config/risdconfig/lightbox_block'
+  defaults:
+    _form: '\Drupal\lightbox_block\Form\ConfigurationForm'
+    _title: 'LightBox Block configuration'
+  requirements:
+    _permission: 'access administration pages'
